@@ -12,8 +12,7 @@ nav{
     align-items: center;
     position: sticky;
     justify-content:right;
-    background: green;
-    /* background-image: linear-gradient(); */
+    background: #1ea71e;
     height: 10vh;
 }
 
@@ -94,8 +93,9 @@ button{
     color: white;
     margin-top: 50px;
 }
+/* ==fooder=== */
 footer{
-    background: rgb(22, 141, 22);
+    background: #1ea71e;
     margin: 0;
     padding: 10px;  
     height: 13vh;
@@ -108,7 +108,10 @@ footer p{
     align-items: center;
     display: flex; 
 }
-img{
+
+
+
+.icon img{
     height: 30px;
     margin: 30px;
     margin-top: 5px;
@@ -120,6 +123,18 @@ img{
     justify-content: center;
     align-items: center;  
     
+}
+/* ==========experrince=== */
+.class15{
+    display: flex;
+}
+.cover{
+    width: 85%;
+    height: 45vh;
+    display: flex;
+}
+.work{
+    display: flex;
 }
 
 
@@ -248,6 +263,8 @@ img{
         font-size: 12px;  
         
     }
+    /* ===about== */
+
 
    
 
@@ -389,44 +406,61 @@ img{
 
 /* =============about me============================= */
 .center{
-    background-image: url(../images/office.jpg);
+    background-image: url(../images/office.jpg) ;
     background-size: cover;  
     background-position:  center;
-    padding-top:20px ;
-    height: 50vh;
+    margin-bottom: 18vh;
     display: flex;
-    justify-content: center;
-}
-.picture1{
-    width: 300px;
-    height: 59vh;
-    padding-top: 30%;
+
 
 }
-.imge{
+.so {
     display: flex;
+    width: 60%;
+    margin: auto;
+    height: 80vh;
+    margin-bottom: -15vh;
+    margin-top: 10%;
     justify-content: center;
+    background-color:rgb(255, 253, 253);
+    padding-bottom: 10%; 
+    box-shadow: rgba(0, 0, 0, 0.088) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.imge img {
+    width: 100%;
+    margin-top: 50%;
+   
+
+} 
+.imge{
+    width: 40%;
 }
 
 .class7{
+    width: 50%;
     display: flex;
-    align-items: center;
+    margin-top: 24%;
+    margin-bottom: 5px;
+
     
 }
 .class07{
-    padding-top: 35%;
+    margin-left: 15px;
 }
-
 .class8{
-    padding-top: 45%;
-}
-p{
-    margin: 10px; 
-    font-size: 15px;
-}
-.itaty{
-    color: blue;
+    padding-top: 42px;
 }
 
 
  
+p{
+    margin: 10px; 
+    font-size: 13px;
+}
+.itaty{
+    color: blue;
+    font-size: 13px;
+
+}
+/* /* ==exper=== */
+
