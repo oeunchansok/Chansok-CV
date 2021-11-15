@@ -175,76 +175,78 @@ footer p{
     .center{
         margin-bottom: 18vh;
     }
-    .so {
-        width: 10%;
-        height: 80vh;
+    .center .so {
+        width: 80%;
+        height: 50vh;
         margin-bottom: -15vh;
-        margin-top: 10%;
-        padding-bottom: 10%; 
+        padding-bottom: 24%;
     }
-    .imge img {
-        width: 100%;
+    .center .imge img {
+        width: 90%;
         margin-top: 50%;
+        height: 30vh;
     } 
-    .imge{
-        width: 40%;
+    .center .imge{
+        width: 50%;
     }
     
-    .class7{
-        width: 50%;
-        display: flex;
+    .center .class7{
+        width: 80%;
         margin-top: 24%;
         margin-bottom: 5px;
     }
-    .class07{
-        margin-left: 15px;
+    .center .class07{
+        margin-left: 10px;
     }
-    .class8{
-        padding-top: 45px;
+    .center .class8{
+        padding-top: 49px;
     }
-    p{
+    .center p{
         margin: 10px; 
-        font-size: 12px;
+        font-size: 15px;
     }
 
-    .itaty{
-        font-size: 13px;
+    .center .itaty{
+        font-size: 14px;
     
+    }
+    .center span{
+        font-size: 15px;
     }
     /* /* ==education== */
     
-    .class08{
-        display: flex;
-        background-color: rgb(189, 86, 86);
+    .all .class08{
+        width: 100%;
         padding-top: 25px;
-    
-    
-    
+        background-color: rgb(172, 65, 65);
     }
-    .follwer{
-        width: 60%;
+    .follwer {
+        width: 70%;
         margin-left: 30%;
         margin-bottom: 30px;
         
        
     }
-    .class9{
+    .all .class9{
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 30px;
         width: 60%;
+        flex-wrap: wrap;
         
     
     }
     
-    .class10{
-        width: 25%;
+    .all .class10{
+        width: 40%;
+        flex-wrap: wrap;
         padding: 30px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    
         
     }
-    .class11{
-        width: 300px;
+    .class10 .class11{
+        width: 100px;
+        font-size: 15px;
     
     }
     .hat{
@@ -268,6 +270,7 @@ footer p{
      
         
     }
+    /* experince */
     
 
 
@@ -453,7 +456,7 @@ footer p{
     margin-left: 15px;
 }
 .class8{
-    padding-top: 45px;
+    padding-top: 55px;
 }
 
 
@@ -467,7 +470,7 @@ span{
 }
 .itaty{
     color: blue;
-    font-size: 13px;
+    font-size: 19px;
 
 }
 /* /* ==education== */
@@ -610,7 +613,7 @@ input[type="text"]{
 }
    */
 
-   form {
+form {
     width: 40%;
     border: 1px solid #ccc;
     padding: 60px;
