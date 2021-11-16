@@ -140,12 +140,7 @@ footer p{
         margin-right: 10%;
         font-size: 15px;
     }
-    .class01,
-    .class0,
-    .class1,
-    .class2{
-        margin: 30px;
-    }
+
     .class2{
         font-size: 10px;
     }
@@ -169,87 +164,46 @@ footer p{
         font-size: 12px;    
     }
     /* ===about== */
-    .center{
-        margin-bottom: 18vh;
-    }
-    .center .so {
-        width: 80%;
-        height: 50vh;
+    .pictures .so {
+        width: 70%;
+        height: 60vh;
         margin-bottom: -15vh;
-        padding-bottom: 24%;
     }
-    .center .imge img {
-        width: 90%;
-        margin-top: 50%;
-        height: 30vh;
+    .pictures .imge img {
+        width: 70%;
+        height: 30vh; 
     } 
-    .center .imge{
-        width: 40%;
+    .pictures .imge{
+        width: 100%;  
     }
-    
-    .center .class7{
-        width: 80%;
-        margin-top: 40%;
-        margin-bottom: 5px;
+    .pictures .class7{
+        margin-left: -33%;
+        padding: 30px; 
     }
-   
-    .center .class07{
-        margin-left:10px;
-    }
-    .center .class8{
-        padding-top: 80px;
-        width: 300px;
-    }
-    .center p{
-        margin: 10px; 
-        font-size: 15px;
-        
-    }
+    .pictures .class40 {
+        margin-bottom: -40px;
 
-    .center .itaty{
-        font-size: 14px;
-    
-    }
-    .center span{
-        font-size: 15px;
-    }
-    .down .donwloding{
-        background-color: blue;
-        width: 120px;
-        height: 3vh;
-        border-radius: 10px;
-        font-size: 15px;
 
-    
     }
+    .pictures .class34{
+        margin-top: 30%;
+    }
+    .pictures p{
+        font-size: 15px;
+    }
+ 
+
      /* ==education== */
     
     .all .class08{
-        width: 100%;
         padding-top: 20px;
-        background-color: rgb(219, 217, 217);
     }
-
     .class08 img{
         width: 90%;
-        height: 30vh;
-    
+        height: 30vh;   
     }
-
     .know{
         display: inline;
-        flex-wrap: wrap;
-    }
-    .follwer {
-        width: 70%;
-        margin-left: 30%;
-        margin-bottom: 30px;   
-    }
-    .all .class9{
-        margin-left: 10px;
-        font-size: 15px;
-        margin-top: 30px;
-        width: 60%;
         flex-wrap: wrap;
     }
     .class08 .class9{
@@ -304,31 +258,41 @@ footer p{
     }
     /* ==contact== */
 
-.class27 form {
-    width: 90%;
-    padding: 1px;
+    .class27 form {
+        width: 80%;
+        padding: 1px;
+    }
+    .class27 .colRight input[type="text"]{
+        width: 90%;
+        padding: 5px;
+        padding-top: 30px;
+        font: 1em ;
+    }
+    .class27 .classe-text{
+        font-size: 14px;
+        margin-bottom: 10px;
+        
+    }
+
+    .imgess .map{
+        margin-top: 100px;
+        width: 90%;
+        height: 40vh;
+    }
+    .class27 .row{
+        margin-left: 20%;
     
-}
-.colRight input[type="text"]{
-    width: 100%;
-    height: 4em;
-    font: 1em ;
-}
 
-.imgess .map{
-    margin-top: 70px;
-    width: 90%;
-    height: 40vh;
-}
-.id button{
-    margin-bottom: 100px;
+    }
 
-}
+    .id button{
+        margin-bottom: 100px;
+    }
 
 } 
 
 
-@media(max-width: 460px){
+@media(max-width: 3750px){
 
     nav {
         flex-direction: column;
@@ -362,117 +326,73 @@ footer p{
 
 
     /* ==about me == */
-    .center{
-        margin-bottom: 18vh;
-        display: flex;
-    
-    
-    }
-    .center .so {
-
-        width: 60%;
-        margin: auto;
-        height: 80vh;
-        margin-bottom: -15vh;
+    .pictures .so {
+        width: 80%;
         margin-top: 10%;
-        justify-content: center;
-
-        padding-bottom: 10%; 
+        display: block;
+        flex-wrap: wrap;
+        height: 80vh;
     }
-    .so .imge img {
-        width: 100%;
-        margin-top: 50%;
-       
-    
-    } 
-    .imge{
-        width: 40%;
-    }
-    
-    .class7{
-        width: 50%;
+    .pictures .imge img {
+        width: 65%;
+        margin: auto;
+        height: 36vh;
         display: flex;
-        margin-top: 24%;
-        margin-bottom: 5px;
-    
-        
+        margin-top: 20px;
+    } 
+    .pictures .class34{
+        margin-top: 10px;
+    }
+    .pictures .class7{
+        margin-top: 30px;
+        width: 100%;
+        margin: auto;
     }
     .class07{
-        margin-left: 15px;
+        width: 30%;
+        margin-bottom: 20px;
     }
-    .class8{
-        padding-top: 55px;
+    .pictures .class40{
+        width: 50%;
+        margin-left: 60px;
+    }
+    .pictures .itaty{
+        font-size: 12px;
+    }
+    .pictures .donwloding{
+        width: 80px;
+        padding: 10px;
+        margin: auto;
+        font-size: 10px;
+    }
+    .pictures p{
+        font-size: 14px;
     }
     
-    
-     
-    p{
-        margin: 10px; 
-        font-size: 18px;
-    }
-    span{
-        font-weight: bold;
-    }
-    .itaty{
-        color: blue;
-        font-size: 19px;
-    
-    }
+ 
     /* ====education=== */
-    .class34 .class08{
-        display: flex;
-        background-color: rgb(106, 72, 72);
-        padding-top: 25px;
+    .all .follwer{
+        width: 90%;
+        margin-left: 10%;
     }
-
-
-
-    .follwer{
-        width: 60%;
-        margin-left: 30%;
-        margin-bottom: 30px;
-        
-    
-    }
-    .class9{
+    .all .class9{
         margin-left: 10px;
-        font-size: 18px;
-        margin-top: 30px;
+        margin-top: 20px;
         width: 60%;
-        
-
+        font-size: 13px;
     }
-
-    .class10{
-        width: 25%;
-        padding: 30px;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    
-        
+    .all .class10{
+        width: 85%; 
+        margin-bottom: 20px;       
     }
     .class11{
         width: 300px;
-
     }
-    .hat{
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 80px;
+    .all .hat{
+        width: 70px;
     }
     .imge1{
     display: flex;
-    }
-
-    b{
-        display: flex;
-        justify-content: center;
-    }
-    .know{
-        display: flex;
-        padding: 30px;
-        justify-content: space-around;
-    
-        
     }
     /* ===contact== */
     .class27{
@@ -541,6 +461,123 @@ footer p{
         font-size: 15px;
     
     }
+    /* ==experince== */
+    .class30 .imge2{
+        width: 50%;
+        padding: 0px;
+        margin-left: 0px;
+       
+    }
+    .class30 .class20{
+        padding: 0%;
+
+
+ 
+        margin-bottom: 20px;
+      
+    }
+    .class30 .cover{
+        width: 130px;
+        margin-left:-2px;
+        padding: 0px;
+    }
+    .class30 .new{
+        font-size: 13px;
+        padding: 0px;
+    }
+    .class30 .teach{
+        margin-left: -3px;
+        width: 80%;
+
+    }
+    .class30 .class18{
+        font-size: 14px;
+        width: 70%;
+        padding: 10px;
+    
+    }
+
+    .class30 .class16{
+        font-size: 13px;
+        width: 100%;
+      
+    }
+    .class30 .class24{
+        font-size: 12px;
+    }
+    
+    .class30 .nam{
+        font-size: 12px;
+
+    }
+    .class30 .new{
+        font-size: 12px;
+    }
+    .class30 class23{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .class30 .class25{
+        font-size: 12px
+
+    }
+    /* ======cotact======= */
+    .class27{
+        padding-bottom: 20px;
+    }
+    .class27 form{
+        margin: 0;
+        width: 99%;
+    }
+    input[type="text"]{
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+
+    }
+    .class27 .row{
+        margin-left: 10px;
+        background-color: white;
+    }
+
+  
+    .class27 .colRight {
+        padding: 1px;
+        width: 99%;  
+
+    }
+    .class27 .colLeft{
+        padding: 1px;
+    }
+
+    .class27 input[type="text"]{
+        width: 99% ; 
+
+     
+
+    }
+ 
+    .class27 h2{
+        font-size: 17px;
+
+    }
+    .class27 .classe-text{
+  
+ 
+        font-size: 12px;
+
+    }
+    .class27 button{
+
+        font-size: 12px;
+
+    }
+
+ 
+       
+    
+    
     
     
     
@@ -556,8 +593,6 @@ footer p{
     background-position:  center;
     margin-bottom: 18vh;
     display: flex;
-
-
 }
 .so {
     display: flex;
@@ -572,36 +607,27 @@ footer p{
     box-shadow: rgba(0, 0, 0, 0.088) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .imge img {
-
+    width: 70%;
     margin-top: 50%;
-    height: 40vh;
-   
-
 } 
 .imge{
-    width: 40%;
+    width: 40%;   
 }
-
 .class7{
-    width: 50%;
     display: flex;
-    margin-top: 50%;
-    margin-bottom: 5px;
-
-    
+    margin-left: -20%;
+    padding: 20px; 
 }
 .class07{
-    margin-left: 15px;
+    width: 30%;
+    margin-bottom: 20px;  
 }
-.class8{
-    padding-top: 55px;
-    padding: 30%;
+.class34{
+    margin-top: 20%;
+}
 
-}
 p{
-    margin: 10px; 
     font-size: 18px;
-
 }
 span{
     font-weight: bold;
@@ -609,20 +635,17 @@ span{
 .itaty{
     color: blue;
     font-size: 19px;
-
 }
 .donwloding{
     background-color: blue;
     width: 150px;
-    height: 6vh;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     color: white;
     font-size: 20px;
-    margin: auto;
-
 }
 
 /* /* ==education== */
@@ -745,6 +768,11 @@ b{
 .sin{
     margin-left: 20px;
 }
+
+
+
+
+
 /* ======cotact======= */
 .class27{
     padding-bottom: 20px;
@@ -757,17 +785,13 @@ input[type="text"]{
     width: 40%;
     padding: 15px;
     margin-bottom: 20px;
-    margin-left: 40px;
+   
 }
 .row{
     display: flex;
     margin-left: 20px;
 }
 
-.row {
-    display: flex;
-    margin: 20px;
-}
 .colLeft {
     width: 20%;
     display: flex;
@@ -781,27 +805,30 @@ input[type="text"]{
 }
 
 input[type="text"]{
-    width: 100%;
+    width: 80%;
     height: 3em;
     font: 1em ;
 
 }
 label{
     font-size: 17px;
+    margin-left: 190px;
 }
 h2{
     display: flex;
     justify-content: center;
 }
+.classe-text{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+}
 .map{
-    width: 40%;
     justify-content:center;
     display: flex;
     margin: auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-.big{
-    display: flex;
 }
 button{
     margin-bottom: 20px;
